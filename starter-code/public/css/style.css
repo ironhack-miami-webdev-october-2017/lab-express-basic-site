@@ -1,6 +1,9 @@
 body {
   background-color: rgb(236, 240, 241);
+  font-family: lato;
 }
+
+/*--- HOME ---*/
 
 .h1Tag {
   border-bottom: 1px solid;
@@ -20,5 +23,29 @@ body {
 }
 
 .helloImg {
-  margin: 30px 450px 0 450px;
+  margin: 30px 465px 0 465px;
+  border-radius: 10px;
+}
+
+/*--- GALLERY ---*/
+
+#nav-bar {
+  width: 100%;
+  height: 120px;
+  border-radius: 10px;
+  margin: 0;
+  box-shadow: 2px 2px 5px rgb(127, 140, 141);
+  background-color: rgb(189, 195, 199);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 40px;
+  font-weight: bold;
+  color: rgb(41, 128, 185);
+}
+
+#img-collection {
+  width: 90px;
+  height: 90px;
+  border-radius: 5px;
 }
