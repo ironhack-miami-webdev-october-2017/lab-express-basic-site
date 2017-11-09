@@ -58,3 +58,26 @@ body {
   margin-left: 50px;
   margin-top: 100px;
 }
+
+/*--- ABOUT ---*/
+
+.profile-img {
+  border-radius: 5px;
+  border: 1px solid rgb(189, 195, 199);
+  margin-left: 300px;
+  margin-top: 50px;
+  opacity: 0.8;
+  box-shadow: 5px 5px 10px rgb(189, 195, 199);
+}
+
+
+
+.about-text {
+  width: 500px;
+  /*display: flex;
+  justify-content: center;*/
+  float: right;
+  margin-right: 180px;
+  margin-top: 120px;
+  text-align: center;
+}
