@@ -1,0 +1,40 @@
+header {
+  margin: 20px auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.links {
+  background: url("../images/rmportal.jpg");
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 400px;
+  margin-left: -30px;
+  margin-top: 18px;
+  padding-left: 80px;
+  padding-right: 50px;
+  text-align: center;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.links a button,
+.links a {
+  width: 300px;
+  height: 50px;
+  background-color: seagreen;
+  color: white;
+  align-self: center;
+  border-radius: 8px;
+}
+
+.welcome-msg {
+  text-align: center;
+  background-color: white;
+  box-shadow: 10px 10px 10px #888888;
+  border: 2px solid darkseagreen;
+  color: teal;
+}
