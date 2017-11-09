@@ -38,3 +38,12 @@ nav h1 {
   display: block;
   margin: 0 auto;
 }
+
+.about{
+  width: 80%;
+}
+
+.flex-one{
+  display: flex;
+  justify-content: center;
+}
