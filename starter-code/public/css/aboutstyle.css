@@ -1,3 +1,9 @@
+@import url('https://fonts.googleapis.com/css?family=Indie+Flower');
+
+* {
+font-family: 'Indie Flower', cursive;
+}
+
 body {
   background-color: #1e2837;
 }
