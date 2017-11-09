@@ -1,0 +1,14 @@
+main{
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  text-align: center;
+}
+p{
+  width: 400px;
+}
+img{
+  padding: 5%;
+}
