@@ -1,0 +1,83 @@
+body {
+  background-color: rgb(236, 240, 241);
+  font-family: lato;
+}
+
+/*--- HOME ---*/
+
+.h1Tag {
+  border-bottom: 1px solid;
+  border-radius: 5px;
+  width: 400px;
+  font-size: 15px;
+  text-align: center;
+  margin: 0 auto;
+  background-color: #fff;
+  box-shadow: 5px 5px 10px black;
+}
+
+.small-letters {
+  text-align: center;
+  margin-top: 50px;
+  font-size: 12px;
+}
+
+.helloImg {
+  margin: 30px 465px 0 465px;
+  border-radius: 10px;
+}
+
+/*--- GALLERY ---*/
+
+#nav-bar {
+  width: 100%;
+  height: 120px;
+  border-radius: 10px;
+  margin: 0;
+  box-shadow: 2px 2px 5px rgb(127, 140, 141);
+  background-color: rgb(189, 195, 199);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 40px;
+  font-weight: bold;
+  color: rgb(41, 128, 185);
+}
+
+.img-collection {
+  display: flex;
+  justify-content: center;
+  margin: 0 auto;
+
+}
+
+.img-collection img {
+  width: 200px;
+  height: 200px;
+  border-radius: 5px;
+  margin-left: 50px;
+  margin-top: 100px;
+}
+
+/*--- ABOUT ---*/
+
+.profile-img {
+  border-radius: 5px;
+  border: 1px solid rgb(189, 195, 199);
+  margin-left: 300px;
+  margin-top: 50px;
+  opacity: 0.8;
+  box-shadow: 5px 5px 10px rgb(189, 195, 199);
+}
+
+
+
+.about-text {
+  width: 500px;
+  /*display: flex;
+  justify-content: center;*/
+  float: right;
+  margin-right: 180px;
+  margin-top: 120px;
+  text-align: center;
+}
