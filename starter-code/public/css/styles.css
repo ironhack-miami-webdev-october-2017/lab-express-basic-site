@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:300,400,700');
+:root {
+  font-family: 'Open Sans', sans-serif;
+}
+body {
+  font-family: 'Open Sans', sans-serif;
+  /* height: 500vh; */
+  /* STICKY FOOTER */
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
+}
+h1, h2, h3, h4, h5 {
+  color: #082837;
+}
+main {
+  padding-bottom: 7vh;
+  padding-top: 5vh;
+  /* STICKY FOOTER */
+  flex: 1 0 auto;
+}
+h2 {
+  margin-bottom: 10vh;
+}
+h3, h4 {
+  margin-bottom: 5vh;
+}
+.card-title {
+  background: rgba(0,0,0,0.5);
+  text-shadow: 1px 0 #000;
+}
+.catch {
+  padding-top: 3vh;
+}
+.card.testimonial {
+  background: transparent;
+  box-shadow: none;
+}
+.card.testimonial .card-content {
+  border-radius: 10px;
+}
+.quote {
+  border-left-color: #90caf9;
+  margin-top: 5vh;
+  padding-bottom: 2vh;
+  padding-top: 2vh;
+}
+.carousel.gallery-carousel {
+  height: 80vh;
+}
+.carousel-item.gallery {
+  height: 80vh;
+  width: 80vh;
+}
+.carousel.gallery-carousel .indicators {
+  bottom: -3vh;
+  z-index: 999;
+}
+.carousel.gallery-carousel .indicators .indicator-item {
+  background-color: #03a9f4;
+  height: 2vh;
+  width: 2vh;
+}
+.carousel.gallery-carousel .indicators .indicator-item.active {
+  background: #01579b;
+}
+.footer-title {
+  display: inline-block;
+}
+.footer-text sup {
+  font-size: 50%;
+}
+.social {
+  max-height: 1em;
+}
+
+@media only screen and (max-width: 767px) {
+  .cover {
+    max-width: 50%;
+    height: auto;
+  }
+  .parallax-container:nth-of-type(1) {
+    height: 145px;
+  }
+  .parallax-container .parallax img {
+    min-height: auto;
+    transform: none;
+  }
+}
+@media only screen and (min-width: 768px) and (max-width: 992px) {
+  .cover {
+    max-width: 50%;
+    height: auto;
+  }
+  .parallax-container:nth-of-type(1) {
+    height: 285px;
+  }
+  .parallax-container .parallax img {
+    min-height: auto;
+    transform: none;
+  }
+}
+
+/* HELPERS */
