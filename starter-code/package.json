@@ -1,0 +1,33 @@
+{
+  "name": "de-pt2mex-mauricio",
+  "version": "0.0.1",
+  "description": "ExpressJS Daily Excercise Web Development Part Time Ironhack Mexico",
+  "main": "app.js",
+  "scripts": {
+    "test": "nodemon app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mauriciogzrs/lab-express-basic-site.git"
+  },
+  "keywords": [
+    "ExpressJS",
+    "Daily",
+    "Excercise",
+    "Web",
+    "Development",
+    "Part",
+    "Time",
+    "Ironhack",
+    "Mexico"
+  ],
+  "author": "MAO",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mauriciogzrs/lab-express-basic-site/issues"
+  },
+  "homepage": "https://github.com/mauriciogzrs/lab-express-basic-site#readme",
+  "dependencies": {
+    "express": "^4.16.3"
+  }
+}
