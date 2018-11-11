@@ -1,35 +1,26 @@
 const express = require('express');
 const app = express();
 
+app.use(express.static(__dirname + '/public'));
 
-
-app.use(express.static('public'));
-
-
-
+// app.use(express.static('public'));
 
 
 
-
-
-app.get('/', (req, res, next) => {
-  res.send
-  (`<h1>Welcome Ironhacker. :)</h1>
-  <ul> <li>hello</li> </li>
-  
-  `);
+app.get('/w', (req, res, next) => {
+  res.sendFile(__dirname + '/views/home-page.html');
 });
 
 
 app.get('/about', (req, res, next) =>{
-  res.sendFile(_dirname + '/views/home-page.html');
+  res.sendFile(__dirname + '/views/about.html');
 });
 
 
 
 
 app.get('/secondPage', (req, res, next) =>{
-  res.sendFile(_dirname + '/views/home-page.html');
+  res.sendFile(__dirname + '/views/secondPage.html');
 });
 
 
