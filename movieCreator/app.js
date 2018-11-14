@@ -47,8 +47,8 @@ app.post("/movienew", (req, res, next) => {
 app.post("/searchFilm", (req, res, next) =>{
     var search = req.body.filmToSearch;
     var match = [];
-    newMovie.find({}, (films) =>{
-        films.forEach((film) =>{
+    newMovie.find({}, (movies) =>{
+        movies.forEach(films) =>{
             if(film.movie == search){
                 match.push(film);
             }
