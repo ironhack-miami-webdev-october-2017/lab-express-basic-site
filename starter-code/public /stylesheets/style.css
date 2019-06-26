@@ -1,0 +1,17 @@
+body {
+  background-color: red;
+}
+
+h1 {
+  display: flex;
+  justify-content: center;
+  color: darkmagenta;
+  font-size: 80px;
+}
+
+img {
+  left: 50%;
+  margin: 10px 40px;
+  width: 18%;
+  height: 10%;
+}
