@@ -1,0 +1,23 @@
+body{
+    color: blueviolet;
+    background-color: chocolate;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#perro{
+    width: 30vw;
+    height: 10vh;
+    background-color: aquamarine;
+    text-align: center;
+}
+.nav{
+    background-color: red;
+}
+#tp{
+    background-color: violet;
+    color: aliceblue;
+    width: 90vh;
+    text-align: center;
+}
