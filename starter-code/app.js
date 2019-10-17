@@ -1,10 +1,14 @@
 const express = require("express");
 const app = express();
 
+// get public folder
+
+app.use(express.static('public'))
+
 // root
 app.get("/", (request, response, next) => {
   console.log(request);
-  response.send("<h1>hello world</h1>");
+  response.sendFile(__dirname + '/views/index.html');
 });
 
 // server
