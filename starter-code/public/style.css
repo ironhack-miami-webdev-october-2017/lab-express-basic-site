@@ -1,0 +1,76 @@
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 100vw;
+    background-color: #f1f1f1;
+  }
+
+nav ul {
+    display: flex;
+    align-content: space-between;
+    justify-content: space-around;
+    flex-direction: row;
+  }
+  
+nav ul li a {
+    display: block;
+    text-align: center;
+    color: #000;
+    padding: 8px 16px;
+    text-decoration: none;
+  }
+  
+  /* Change the link color on hover */
+nav ul li a:hover {
+    background-color: #555;
+    color: white;
+    width: 33vw;
+  }
+
+.main_box{
+    width: 100vw;
+    height: 100px;
+    display: block;
+    color: grey;
+    text-align: center;
+}
+
+.txt_grey{
+    color: lightslategrey;
+}
+
+.photo_frame{
+    padding: 20px 20px 20px 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    position: relative;
+}
+
+.album {
+    width: 70vw;
+    position: relative;
+    left: 15%;
+}
+
+.photo {
+    width: 20vw;
+}
+
+.desc {
+    display: flex;
+    align-content: center;
+}
+
+.centerblock {
+    width: 50vw;
+    position: relative;
+    left: 25%;
+}
+
+.placeholder {
+    width: 45vw;
+    height: 12vh;
+}
