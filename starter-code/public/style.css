@@ -1,0 +1,43 @@
+h3 {
+  margin-top: 10px;
+  color: #c0cbea;
+  font-size: 2.5rem;
+  font-family: fantasy;
+  font-weight: lighter;
+}
+
+h2 {
+  color: #c0cbea;
+}
+
+.centerflex {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  background-image: url("https://e00-marca.uecdn.es/assets/multimedia/imagenes/2020/01/21/15796160137225.jpg");
+}
+
+footer {
+  display: flex;
+  padding: 10px 10px 0px 0px;
+  justify-content: flex-end;
+  background-color: #5e6f9e;
+}
+
+.about {
+  margin: 10px 20px;
+  color: white;
+}
+
+.card {
+  margin: 10px 30px;
+  border-color: #5e6f9e;
+  color: white;
+}
+
+.gallery {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+}
