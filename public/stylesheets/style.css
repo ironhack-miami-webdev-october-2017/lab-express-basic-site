@@ -1,4 +1,18 @@
+:root {
+    --text-color: #333;
+    --background-color: #f8f8f8;
+}
+
+
 body {
-    color: blue;
-    background-color: bisque;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 17px;
+    color: var(--text-color);
+    background-color:var(--background-color)
+} 
+
+.gallery img {
+    height: 300px;
+    width: 300px;
+    object-fit: cover;
 }
