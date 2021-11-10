@@ -1,20 +1,24 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-    <link rel="stylesheet" href="/styles.css">
-</head>
-<body>
+    <link rel="stylesheet" href="/styles.css" />
+  </head>
+  <body>
     <h1>Home Page</h1>
-    <p>Here you can learn about NFTs</p>
+    <p>
+      Here you can learn about NFTs, or
+      <button onclick="getNewJoke()">get a random Joke</button>
+    </p>
     <ul>
-        <li><a href="/about">About</a></li>
-        <li><a href="/works">Works</a></li>
-        <li><a href="/gallery">Gallery</a></li>
-
+      <li><a href="/about">About</a></li>
+      <li><a href="/works">Works</a></li>
+      <li><a href="/gallery">Gallery</a></li>
     </ul>
-</body>
+    <p id="joke"></p>
+    <script src="/script.js"></script>
+  </body>
 </html>
