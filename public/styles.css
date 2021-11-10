@@ -1,0 +1,19 @@
+@import url("https://fonts.googleapis.com/css?family=Poppins");
+
+body {
+  font-family: "Poppins";
+}
+
+.flex {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  flex-direction: column;
+}
+img {
+  width: 50%;
+}
+
+p{
+    width: 50%;
+}
