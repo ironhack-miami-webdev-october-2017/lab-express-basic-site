@@ -1,6 +1,13 @@
 body {
   background-color: #dfcfbe;
-  color: #3f2a14;
+  color: black;
+  font-family: 'Karla', sans-serif;
+  text-decoration: none;
+  background-image: url('https://w7.pngwing.com/pngs/421/299/png-transparent-ancient-rice-paper-background-old-xuan-paper-paper.png');
+}
+
+p {
+font-weight: 600;
 }
 
 nav {
@@ -60,3 +67,18 @@ nav li {
     border-radius: 15px;
     margin: 7px;
 }
+
+.works-img {
+    display: flex;
+    justify-content: center;
+    margin-left: 300px;
+}
+
+.logo {
+    display: flex;
+    position: absolute;
+    height: 100px;
+    width: 100px;
+    margin-left: 380px;
+}
+
