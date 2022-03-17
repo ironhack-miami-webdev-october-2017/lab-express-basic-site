@@ -1,0 +1,84 @@
+body {
+  background-color: #dfcfbe;
+  color: black;
+  font-family: 'Karla', sans-serif;
+  text-decoration: none;
+  background-image: url('https://w7.pngwing.com/pngs/421/299/png-transparent-ancient-rice-paper-background-old-xuan-paper-paper.png');
+}
+
+p {
+font-weight: 600;
+}
+
+nav {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  text-decoration: none;
+}
+
+nav ul {
+  display: flex;
+  flex-direction: column;
+  text-decoration: none;
+  justify-content: space-around;
+  line-height: 3.5;
+}
+
+nav li {
+  display: flex;
+  font-size: 30px;
+  flex-direction: column;
+  justify-content: space-around;
+  list-style: none;
+  text-decoration: none;
+  padding: 10px;
+}
+
+.central-img {
+  display: flex;
+  justify-content: center;
+  border-style: groove;
+  border-radius: 15px;
+  margin-left: 100px;
+}
+
+.color-text {
+  display: flex;
+  flex-direction: flex-end;
+  color: #3f2a14;
+  margin-left: 100px;
+}
+
+.container {
+  display: flex;
+  flex-direction: row;
+  margin-top: 40px;
+}
+
+.gallery-ft {
+    display: flex;
+}
+
+.gallery-ft img {
+    height: 500px;
+    width: 350px;
+    object-fit: cover;
+    border-radius: 15px;
+    margin: 7px;
+}
+
+.works-img {
+    display: flex;
+    justify-content: center;
+    margin-left: 300px;
+}
+
+.logo {
+    display: flex;
+    position: absolute;
+    height: 100px;
+    width: 100px;
+    margin-left: 380px;
+}
+
