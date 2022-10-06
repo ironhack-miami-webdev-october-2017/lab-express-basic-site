@@ -1,4 +1,10 @@
 body {
+    text-align: center;
     color: white;
     background-color: black;
+}
+
+p {
+    text-align: center;
+    font-size: 20px;
 }
